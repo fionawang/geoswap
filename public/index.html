@@ -189,6 +189,8 @@
         <ul id="sidebar-items">
           <li>
             <h3>Browse the documentation (FIONA EDIT)</h3>
+            <a class="rpxnow" onclick="return false;"
+href="https://fiona.rpxnow.com/openid/v2/signin?token_url=http%3A%2F%2Flocalhost%3A3000%2Frpx%2Fcallback"> Sign In </a>
             <ul class="links">
               <li><a href="http://api.rubyonrails.org/">Rails API</a></li>
               <li><a href="http://stdlib.rubyonrails.org/">Ruby standard library</a></li>
@@ -235,5 +237,14 @@
 
       <div id="footer">&nbsp;</div>
     </div>
+    <script type="text/javascript">
+  var rpxJsHost = (("https:" == document.location.protocol) ? "https://" : "http://static.");
+  document.write(unescape("%3Cscript src='" + rpxJsHost +
+"rpxnow.com/js/lib/rpx.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  RPXNOW.overlay = true;
+  RPXNOW.language_preference = 'en';
+</script>
   </body>
 </html>
