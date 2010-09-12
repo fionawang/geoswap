@@ -1,4 +1,4 @@
-<h1>New Check In</h1>
+<h1>New Check In <%= @location.name %></h1>
 
 <%= form_for @check_in, :url => location_check_ins_path(@check_in.location) do |f| %>
 	<%= f.label :status %>
